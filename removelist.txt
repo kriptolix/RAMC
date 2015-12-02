@@ -1,0 +1,19 @@
+[] - e o conteudo
+() - e o conteudo
++
+bdrip
+h264
+acc
+dvdrip
+mp4
+dublado
+hdtv
+x264
+
+web-dl
+mkv
+bluray
+20xx
+19xx
+720p
+480p
