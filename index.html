@@ -15,6 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<script>
 		
+		//http://api.themoviedb.org/3/search/movie?api_key=4a39f41870b802ea580f47953607b1bc&query=hunger games
 		
 		function successCB(data) {
 		console.log("Success callback: " + data);
@@ -24,8 +25,8 @@
             console.log("Error callback: " + data);
 		};
 		
-		//document.getElementById("demo").innerHTML = theMovieDb.search.getMovie({"query":"hunger games"}, successCB, errorCB);
-		document.getElementById("demo").innerHTML = theMovieDb.movies.getImages({"id":131634 , "language":"en" }, successCB, errorCB);
+		document.getElementById("demo").innerHTML = theMovieDb.search.getMovie({"query":"hunger games"}, successCB, errorCB);
+		//document.getElementById("demo").innerHTML = theMovieDb.movies.getImages({"id":131634 , "language":"en" }, successCB, errorCB);
 		
 		131634
 		</script>
